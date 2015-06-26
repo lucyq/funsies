@@ -1,6 +1,8 @@
 /* 
  *	Sorts a stack using just another stack..maybe (no, DEFINITELY...to our knowledge)
  *	time complexity kinda sucks but whatever
+ *	
+ *	created by Lucy Qin and Keith Saver
  */
 
 
@@ -21,11 +23,6 @@ int main () {
 		stk.push(num);
 	}
 
-	// for (int i = 0; i < (int)stk.size(); i++) {
-	// 	cout << stk.top();
-	// 	stk.pop();
-	// }
-	// cout << endl;
 	sortStack(stk);
 
 }
